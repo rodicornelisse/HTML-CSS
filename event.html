@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS4 Reviews</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>PS4 Reviews</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ww2.html">WW2</a></li>
+                <li><a href="fifa18.html">Fifa 18</a></li>
+                <li><a href="event.html">Event</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 class="apart">Game Event</h2>
+    <p class="first">We organiseren dit jaar een aantal game events waar je de beste games van de PS4 kunt komen testen. Alle events zijn van 11:00 tot 17:00.</p>
+    <table class="overzicht">
+        <tr class="head">
+            <th></th>
+            <th colspan="2">Leiden</th>
+            <th colspan="2">Zwolle</th>
+        </tr>
+        <tr>
+            <th>Virtual Reality Gaming</th>
+            <td>11-02-18</td>
+            <td>26-02-18</td>
+            <td>014-03-18</td>
+            <td>28-08-18</td>
+        </tr>
+        <tr>
+            <th>Experience Gaming</th>
+            <td>14-03-18</td>
+            <td>25-06-18</td>
+            <td>27-01-18</td>
+            <td>11-09-18</td>
+        </tr>
+        <tr>
+            <th>WW2, Fifa 18 en Fortnite</th>
+            <td>28-03-18</td>
+            <td>07-05-18</td>
+            <td>02-05-18</td>
+            <td>18-06-18</td>
+        </tr>
+        <tr>
+            <th>PS Vita Gaming</th>
+            <td>15-04-18</td>
+            <td>09-03-18</td>
+            <td>17-03-18</td>
+            <td>11-06-18</td>
+        </tr>
+        <tr>
+            <th>Formule 1 Gaming</th>
+            <td>19-02-18</td>
+            <td>10-05-18</td>
+            <td>11-04-18</td>
+            <td>12-09-18</td>
+        </tr>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Meld u hier aan</legend>
+            <p><label class="title" for="name">U naam:</label>
+                <input type="text" name="name" id="name" required="required">
+                <label class="title" for="email">U e-mailadres:</label>
+                <input type="email" name="email" id="email" required="required"></p>
+            <p><label for="location" class="title">Locatie:</label>
+                <select name="location" id="location">
+                  <option value="leiden">Leiden</option>
+                  <option value="zwolle">Zwolle</option>
+              </select></p>
+            <label for="event" class="title">Event:</label>
+            <select name="event" id="event">
+                  <option value="virtual reality gaming">Virtual Reality Gaming</option>
+                  <option value="experience gaming">Experience Gaming</option>
+                  <option value="ww2, fifa18 en fortnite">WW2, Fifa 18 en Fortnite</option>
+                  <option value="ps vita gaming">PS Vita Gaming</option>
+                  <option value="formule 1 gaming">Formule 1 Gaming</option>
+              </select>
+            <label for="depart">Datum:</label>
+            <input type="date" name="depart" class="title" id="depart" required>
+        </fieldset>
+        <a href="bedankt.html" class="submit">Aanmelden</a>
+    </form>
+</body>
+
+</html>
